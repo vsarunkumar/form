@@ -9,7 +9,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class AppComponent implements OnInit {
 
-  urls = ['https://sif-staging.s3.amazonaws.com/private/2019/06/ec07d5d3-1db2-4365-9755-919d928e368a/5f7611_label.pdf?AWSAccessKeyId=AKIAIZYZA3BDEY7Z4BGQ&Signature=Lao6Y3DSjVokjkU5pq1zRceKbAk%3D&Expires=1560257088'];
+  urls = ['https://sif-staging.s3.amazonaws.com/private/2019/06/ec07d5d3-1db2-4365-9755-919d928e368a/5f7611_label.pdf?AWSAccessKeyId=AKIAIZYZA3BDEY7Z4BGQ&Signature=739uK6ZPQkO5uOsu6u5yANJVppU%3D&Expires=1560318075'];
   safeUrls = [];
 
   constructor(private sanitizer: DomSanitizer) {}
